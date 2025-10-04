@@ -6,8 +6,7 @@
   prerequisites: |
     Открыта главная страница сайта Hexlet Store
   test-data: |
-    Тестовые данные
-    Логин = ilona Пароль = password
+    
   steps:
     - Наводим курсос на вкладку Language
     - Выбираем язык Russian

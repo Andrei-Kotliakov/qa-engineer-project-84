@@ -6,7 +6,7 @@
   prerequisites: |
     Открыта главная страница сайта Hexlet Store
   test-data: |
-    
+    user = Andrei
   steps:
     - Наводим курсос на вкладку Language
     - Выбираем язык Russian

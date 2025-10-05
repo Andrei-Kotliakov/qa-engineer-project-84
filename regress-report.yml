@@ -13,7 +13,7 @@ test-cases:
   status: pass
 
 bugreports:
- - summary: |
+- summary: |
     После очистки корзины и возврата на главную страницу, в корзине сохраняется последний заказанный товар
   environment: |
     Yandex Browser: 25.8.4.761 (Официальная сборка) (64 бит)

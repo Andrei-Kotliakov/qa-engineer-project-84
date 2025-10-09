@@ -110,6 +110,7 @@
     Дизайн сайта должен быть адаптивен к модели iPhone 14 Pro Max
   prerequisites: |
     - Открыт каталог сайта Hexlet Store
+    - Открыт DevTools
   test-data: |
     Empty
   steps:

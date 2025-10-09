@@ -111,9 +111,11 @@
   prerequisites: |
     - Открыт каталог сайта Hexlet Store
     - Открыт DevTools
+    - Установлен язык интерфейса Russian
   test-data: |
     Empty
   steps:
+    - Нажать кнопку "Toggle device toolbar"
     - Нажать на кнопку "Dimensions"
     - Дождаться отображения выпадающего списка
     - Выбрать модель iPhone 14 Pro Max

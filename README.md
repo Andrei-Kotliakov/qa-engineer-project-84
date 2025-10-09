@@ -1,3 +1,9 @@
+# Название проекта. 
+*italic* Тестирование интернет-магазина.
+# Описание.
+Тестирование интернет-магазина по продаже вещей Hexlet Store (https://products-store-ru.hexlet.app/).
+
+
 
 
 ### Hexlet tests and linter status:

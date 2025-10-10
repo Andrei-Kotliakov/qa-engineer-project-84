@@ -25,10 +25,16 @@ test-cases:
   status: pass
 
 - summary: |
-    П
+    Проверка функциональности мобильной версии сайта на примере iPhone 14 Pro Max
   status: pass  
 
+- summary: |
+    П
+  status: pass
 
+- summary: |
+    П
+  status: pass
 
 bugreports:
 - summary: |

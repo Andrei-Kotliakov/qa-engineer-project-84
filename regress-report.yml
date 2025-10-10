@@ -24,6 +24,10 @@ test-cases:
     Проверка функциональности фильтрации товаров по ценовому диапазону
   status: pass
 
+- summary: |
+    П
+  status: pass  
+
 
 
 bugreports:

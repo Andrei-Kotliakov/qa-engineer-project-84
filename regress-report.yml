@@ -30,7 +30,7 @@ test-cases:
 
 - summary: |
     Проверка корректности отображения сетевых запросов в DevTools после добавления товара в корзину
-  status: pass
+  status: fail
 
 bugreports:
 - summary: |

@@ -29,11 +29,7 @@ test-cases:
   status: pass  
 
 - summary: |
-    П
-  status: pass
-
-- summary: |
-    П
+    Проверка корректности отображения сетевых запросов в DevTools после добавления товара в корзину
   status: pass
 
 bugreports:

@@ -5,6 +5,10 @@ test-cases:
   status: pass
 
 - summary: |
+    Проверка функциональности смены языка с Russian на English
+  status: pass
+
+- summary: |
     Оформление заказа с двумя ранее выбранными позициями товаров
   status: fail
   

@@ -24,7 +24,7 @@
   status: fail
 
 - summary: |
-    Проверка функциональности 
+    Проверка функциональности мобильной версии сайта на примере iPhone 14 Pro Max
   status: fail
 
 - summary: |

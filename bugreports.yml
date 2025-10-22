@@ -55,5 +55,20 @@
   expected-result: |
     1. После перезагрузки страницы язык интерфейса сохраняется как Russian 
   actual-result: |
-    1. После перезагрузки страницы язык интерфейса сбрасывается на язык по умолчанию (English) (reset_lang_1.png, reset_lang_2.png) 
+    1. После перезагрузки страницы язык интерфейса сбрасывается на язык по умолчанию (English) (reset_lang_1.png, reset_lang_2.png)
+
+ - summary: |
+    *
+  environment: |
+    Yandex Browser: 25.8.4.761 (Официальная сборка) (64 бит)
+    ОС: Windows 11 26100.6584
+    URL: https://products-store-ru.hexlet.app/
+  steps-to-reproduce: |
+    1. Открыта главная страница (список товаров) сайта Hexlet Store
+    2. Нажать кнопку Language на главной странице в навигационной панели
+    3. Дождаться отображения выпадающего окна
+  expected-result: |
+    1. После перезагрузки страницы язык интерфейса сохраняется как Russian 
+  actual-result: |
+    1. После перезагрузки страницы язык интерфейса сбрасывается на язык по умолчанию (English) (reset_lang_1.png, reset_lang_2.png)   
     

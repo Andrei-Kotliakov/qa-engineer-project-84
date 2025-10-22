@@ -125,7 +125,7 @@
     3. Столбец "Status" отображается код состояния "500" (failed_order_CK One(devtools).png)
 
 - summary: |
-     Дизайн
+     Дизайн сайта не адаптирован к модели iPhine 14 Pro Max
   environment: |
     Yandex Browser: 25.8.4.761 (Официальная сборка) (64 бит)
     ОС: Windows 11 26100.6584

@@ -130,6 +130,7 @@
     Yandex Browser: 25.8.4.761 (Официальная сборка) (64 бит)
     ОС: Windows 11 26100.6584, тестируется iPhone 14 Pro Max
     URL: https://products-store-ru.hexlet.app/
+    Resolution: 430x932px
   steps-to-reproduce: |
     1. Перейти на https://products-store-ru.hexlet.app/
     2. Нажать кнопку "Toggle device toolbar"

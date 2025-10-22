@@ -71,3 +71,33 @@
     1. После перезагрузки страницы появляется список товаров с указанным хэштегом "#kitchen-accessories" 
   actual-result: |
     1. Ссылка (хэштег) не активна, поиск по хэштегу не выполняется (booking_hashtag.png)
+
+- summary: |
+    *
+  environment: |
+    Yandex Browser: 25.8.4.761 (Официальная сборка) (64 бит)
+    ОС: Windows 11 26100.6584
+    URL: https://products-store-ru.hexlet.app/products/62
+  steps-to-reproduce: |
+    1. Открыта корзина сайта Hexlet Store c выбранным товаром Ice Cube Tray
+    2. Кликнуть по хэштегу "#kitchen-accessories"
+    3. Дождаться обновления страницы
+  expected-result: |
+    1. После перезагрузки страницы появляется список товаров с указанным хэштегом "#kitchen-accessories" 
+  actual-result: |
+    1. Ссылка (хэштег) не активна, поиск по хэштегу не выполняется (booking_hashtag.png)
+
+- summary: |
+    *
+  environment: |
+    Yandex Browser: 25.8.4.761 (Официальная сборка) (64 бит)
+    ОС: Windows 11 26100.6584
+    URL: https://products-store-ru.hexlet.app/products/62
+  steps-to-reproduce: |
+    1. Открыта корзина сайта Hexlet Store c выбранным товаром Ice Cube Tray
+    2. Кликнуть по хэштегу "#kitchen-accessories"
+    3. Дождаться обновления страницы
+  expected-result: |
+    1. После перезагрузки страницы появляется список товаров с указанным хэштегом "#kitchen-accessories" 
+  actual-result: |
+    1. Ссылка (хэштег) не активна, поиск по хэштегу не выполняется (booking_hashtag.png)

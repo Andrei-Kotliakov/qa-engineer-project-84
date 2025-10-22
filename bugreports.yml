@@ -64,11 +64,24 @@
     ОС: Windows 11 26100.6584
     URL: https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыта главная страница (список товаров) сайта Hexlet Store
+    1. Открыта корзина сайта Hexlet Store c выбранным товаром Ice Cube Tray
     2. Нажать кнопку Language на главной странице в навигационной панели
     3. Дождаться отображения выпадающего окна
   expected-result: |
     1. После перезагрузки страницы язык интерфейса сохраняется как Russian 
   actual-result: |
-    1. После перезагрузки страницы язык интерфейса сбрасывается на язык по умолчанию (English) (reset_lang_1.png, reset_lang_2.png)   
+    1. После перезагрузки страницы язык интерфейса сбрасывается на язык по умолчанию(booking_hashtag.png)
     
+/*- summary: |
+    Поиск товара по хэштегу
+  requirement: |
+    Должен появиться перечень товаров с указанным хэштегом
+  prerequisites: |
+    - Открыта корзина сайта Hexlet Store c выбранным товаром Ice Cube Tray
+  test-data: |
+    Empty
+  steps:
+    - Кликнуть по хэштегу "#kitchen-accessories"
+    - Дождаться обновления страницы
+  expected-result: |
+    - Появляется список товаров с указанным хэштегом "#kitchen-accessories"*/

@@ -44,12 +44,12 @@
   status: pass
 
 - summary: |
-    *
-  status: *
+    Проверка функциональности добавления товара в корзину
+  status: pass
 
 - summary: |
     *
-  status: *
+  status: pass
 
 - summary: |
     *

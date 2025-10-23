@@ -56,8 +56,8 @@
   status: pass
 
 - summary: |
-    *
-  status: *
+    Проверка фильтрации товаров по отсутствию (не в наличии)
+  status: pass
 
 - summary: |
     *

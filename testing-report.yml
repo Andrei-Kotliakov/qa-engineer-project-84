@@ -34,3 +34,27 @@
 - summary: |
     Проверка корректности отображения сетевых запросов в DevTools в момент оформления заказа
   status: fail
+
+- summary: |
+    *
+  status: *
+
+- summary: |
+    *
+  status: *
+
+- summary: |
+    *
+  status: *
+
+- summary: |
+    *
+  status: *
+
+- summary: |
+    *
+  status: *
+
+- summary: |
+    *
+  status: *

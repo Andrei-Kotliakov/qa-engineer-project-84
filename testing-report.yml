@@ -40,8 +40,8 @@
   status: pass
 
 - summary: |
-    *
-  status: *
+    Проверка функциональности множественного выбора фильтра по бренду
+  status: pass
 
 - summary: |
     *

@@ -52,8 +52,8 @@
   status: pass
 
 - summary: |
-    *
-  status: *
+    Проверка отображения полной информации о товаре на странице
+  status: pass
 
 - summary: |
     *

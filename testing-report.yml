@@ -48,8 +48,16 @@
   status: pass
 
 - summary: |
-    *
+    Проверка функциональности удаления товара из корзины с проверкой пересчета общей суммы
   status: pass
+
+- summary: |
+    *
+  status: *
+
+- summary: |
+    *
+  status: *
 
 - summary: |
     *

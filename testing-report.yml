@@ -60,6 +60,18 @@
   status: pass
 
 - summary: |
+    Проверка навигации по страницам каталога товаров
+  status: pass
+
+- summary: |
+    *
+  status: *
+
+- summary: |
+    *
+  status: *
+
+- summary: |
     *
   status: *
 

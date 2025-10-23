@@ -36,8 +36,8 @@
   status: fail
 
 - summary: |
-    *
-  status: *
+    Проверка функциональности фильтрации товаров по категории
+  status: pass
 
 - summary: |
     *

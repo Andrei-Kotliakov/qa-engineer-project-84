@@ -4,7 +4,7 @@
   requirement: |
     Пользователь должен иметь возможность выбора языка интерфейса
   prerequisites: |
-    - Открыта главная страница сайта Hexlet Store
+    - Открыта главная страница сайта Hexlet Store https://products-store-ru.hexlet.app/
     - Язык интерфейса установлен English
   test-data: |
     Empty
@@ -32,7 +32,7 @@
   requirement: |
     Пользователь должен иметь возможность выбора языка интерфейса
   prerequisites: |
-    - Открыта главная страница сайта Hexlet Store
+    - Открыта главная страница сайта Hexlet Store https://products-store-ru.hexlet.app/
     - Язык интерфейса установлен Russian
   test-data: |
     Empty
@@ -95,7 +95,7 @@
   requirement: |
     Пользователь должен иметь возможность выполнять поиск товара по частичному совпадению текста в названии товара
   prerequisites: |
-    - Открыт каталог сайта Hexlet Store
+    - Открыт каталог сайта Hexlet Store https://products-store-ru.hexlet.app/
     - Язык интерфейса установлен Russian
     - Поле поиска: пустое
   test-data: |
@@ -113,7 +113,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары по указанному ценовому диапазону
   prerequisites: |
-    - Открыт каталог сайта Hexlet Store
+    - Открыт каталог сайта Hexlet Store https://products-store-ru.hexlet.app/
     - В полях "Цена от" и "Цена до" содержат значения "0"
   test-data: |
     Empty
@@ -136,7 +136,7 @@
   requirement: |
     Дизайн сайта должен быть адаптивен к модели iPhone 14 Pro Max
   prerequisites: |
-    - Открыт каталог сайта Hexlet Store
+    - Открыт каталог сайта Hexlet Store https://products-store-ru.hexlet.app/
     - Открыт DevTools
     - Установлен язык интерфейса Russian
   test-data: |
@@ -169,7 +169,7 @@
   requirement: |
     Запросы/ ответы должно уходить/ приходить без ошибок 
   prerequisites: |
-    - Открыт каталог сайта Hexlet Store
+    - Открыт каталог сайта Hexlet Store https://products-store-ru.hexlet.app/
     - Открыт DevTools на вкладке "Network"
     - Выбран фильтр "Fetch/XHR"
     - Установлен язык интерфейса Russian
@@ -202,6 +202,24 @@
     - Оповещение об успешном оформлении заказа
     - В столбце "Name" указан запрос "order" или "create-order"
     - В столбце "Status" отображается: "200 OK" или "201 Created"
+
+- summary: |
+    Проверка функциональности фильтрации по категории
+  requirement: |
+    Пользователь должен иметь возможность фильтровать товары по категории
+  prerequisites: |
+    - Открыт каталог сайта Hexlet Store https://products-store-ru.hexlet.app/
+    - Язык интерфейса установлен Russian
+    - Поле фильтра по категории: пустое
+  test-data: |
+    Empty
+  steps:
+    - Нажать на кнопку "Поиск"
+    - Ввести с клавиатуры часть текста "shirt"
+  expected-result: |
+    - В списке товаров отображаются только товары с совпадением названия по тексту "shirt"
+    - Фильтрация товаров происходит автоматически без нажатия клавиши "Enter"
+    - Список товаров обновляется автоматически без перезагрузки стартовой страницы
 
 
 

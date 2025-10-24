@@ -72,8 +72,8 @@
   status: pass
 
 - summary: |
-    *
-  status: *
+    Проверка выхода из процесса оформления заказа через основное меню
+  status: pass
 
 - summary: |
     *

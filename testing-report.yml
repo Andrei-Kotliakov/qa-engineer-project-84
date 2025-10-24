@@ -80,10 +80,5 @@
   status: pass
 
 - summary: |
-    *
-  status: *
-
-- summary: |
-    *
-  status: *
-
+    Проверка функциональности очистки корзины и продолжения покупок
+  status: pass
